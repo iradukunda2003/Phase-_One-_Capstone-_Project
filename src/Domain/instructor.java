@@ -1,6 +1,6 @@
 package Domain;
 
-public class instructor extends Person {
+public class Instructor extends Person {
     private String employeeID;
     private String department;
 
@@ -25,4 +25,3 @@ public class instructor extends Person {
         System.out.println("department : " + getDepartment());
     }
 }
-
